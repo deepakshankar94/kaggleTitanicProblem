@@ -6,6 +6,15 @@ def Outputs(data):
     return np.round(1.-(1./(1.+np.exp(-data))))
 
 
+
+
+
+
+
+
+
+
+
 def GeneticFunction(data):
     return ((np.minimum( ((((0.058823499828577 + data["Sex"]) - np.cos((data["Pclass"] / 2.0))) * 2.0)),  ((0.885868))) * 2.0) +
             np.maximum( ((data["SibSp"] - 2.5)),  ( -(np.minimum( (data["Sex"]),  (np.sin(data["Parch"]))) * data["Pclass"]))) +
