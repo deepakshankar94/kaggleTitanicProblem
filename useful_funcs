@@ -40,3 +40,6 @@ MLA = [
     #xgboost: http://xgboost.readthedocs.io/en/latest/model.html
     XGBClassifier()    
     ]
+
+    XGBClassifier()    
+    
